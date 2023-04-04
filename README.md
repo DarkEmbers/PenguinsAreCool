@@ -1,4 +1,6 @@
-# Least Cost
+#Penguins Are Cool
+
+## Least Cost
 
 ```java
 public Journey leastCost(String from, String to) throws FlyingPlannerException
@@ -15,7 +17,7 @@ After you get the path it will be of type GraphPath<WhateverYou, PutHere> so you
 new Journey(your vertex list, your flight list);
 ```
 
-# Least Hop
+## Least Hop
 
 ```java
 public Journey leastHop(String from, String to) throws FlyingPlannerException
@@ -34,7 +36,7 @@ After you get the path it will be of type GraphPath<WhateverYou, PutHere> so you
 new Journey(your vertex list, your flight list);
 ```
 
-# Least Cost / Hop, Excluding
+## Least Cost / Hop, Excluding
 
 ```java
 public Journey leastCost(String from, String to, List<String> excluding)
@@ -62,7 +64,7 @@ After you get the path it will be of type GraphPath<WhateverYou, PutHere> so you
 new Journey(your vertex list, your flight list);
 ```
 
-# Least Hop Meet Up
+## Least Hop Meet Up
 
 ```java
 public String leastHopMeetUp(String at1, String at2) throws FlyingPlannerException
